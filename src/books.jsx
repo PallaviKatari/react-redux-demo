@@ -57,6 +57,13 @@ class Library extends React.Component {
         year: 2008
     });
 
+    arr.push({
+      book_id: 8,
+      title: 'The 3 Mistakes of My Life',
+      author: 'Chetan Bhagat',
+      year: 2008
+  });
+
   	this.props.appendData({
   		name: name,
   		books: [...this.props.books, ...arr]
